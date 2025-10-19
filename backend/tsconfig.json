@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // versão do JS de saída
+    "module": "commonjs", // sistema de módulos (Node)
+    "moduleResolution": "node", // como resolver imports
+    "outDir": "dist", // pasta de saída da build
+    "rootDir": "src", // pasta onde estão os .ts
+    "esModuleInterop": true, // permite import default de libs commonjs
+    "strict": true, // ativa regras estritas
+    "skipLibCheck": true, // pula checagem de typings de libs
+    "forceConsistentCasingInFileNames": true, // case-sensitive
+    "typeRoots": ["./src/@types", "./node_modules/@types"]
+  },
+  "include": ["src"], // quais pastas compilar
+  "exclude": ["node_modules", "dist"] // o que ignorar
+}

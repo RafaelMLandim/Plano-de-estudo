@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  
+  --font-poppins:'Poppins',sans-serif;
+  
+  --color-custonRed-100: #ff7676;
+  --color-custonRed-200: #ff6666;
+
+  --color-custonShadow-200: #98c5ce;
+
+  --color-custonBackgroud #6AB8EB:
+
+  
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+ background: linear-gradient(
+  90deg,
+  rgba(106, 184, 235, 1) 0%,
+  rgba(141, 189, 220, 1) 35%,
+  rgba(200, 210, 225, 1) 65%,
+  rgba(245, 245, 245, 1) 100%
+);
+
+}
