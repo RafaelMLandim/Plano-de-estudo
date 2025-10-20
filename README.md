@@ -1,4 +1,4 @@
-# Plano de Estudo - Gerenciador de Tarefas
+# Gerenciador de Tarefas
 
 Este projeto é um **gerenciador de tarefas completo**, no qual eu desenvolvi tanto o **frontend** quanto toda a **estrutura da API backend**.
 
